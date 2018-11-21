@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} - ONS Digital Publishing Prototype Kit{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.intro-content | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.ons.gov.uk/sixteens/a62dd01/css/main.css">
+  <link rel="stylesheet" href="{{ path '/css/global.css' }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+  <body>
+    <main id="main" role="main" tabindex="-1">
+      
+ 
+    <div class="page-neutral-intro background--gallery">
+<div class="wrapper">
+<div class="col-wrap">
+<div class="col">
+<nav>
+<div class="breadcrumb-neutral print--hide">
+<ol class="breadcrumb-neutral__list">
+<li class="breadcrumb-neutral__item">
+<a class="breadcrumb-neutral__link" href="/">Home</a>
+</li>
+<li class="breadcrumb-neutral__item">
+Breadcrumb link
+</li>
+</ol>
+</div>
+</nav>
+<div class="col col--md-47 col--lg-46">
+<div class="page-neutral-intro__type">Article</div>
+<h1 class="page-neutral-intro__title ">
+Test site for all article interactives
+</h1>
+<p class="page-neutral-intro__content">Sub-title for article interactives - Also some added text here. Hellooooooooooo</p>
+<p class="page-neutral-intro__meta margin-top--0 margin-bottom--3">26 July 2018</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+    
+    
+    
+    
+    <div class="wrapper margin-bottom--2">
+<div class="col-wrap">
+<article class="col col--md-40 col--lg-40 page-neutral-content__main-content margin-top--4 margin-left-md--1">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </article>
+</div>
+</div>
+    </main>
+  </body>
+  <!--[if gt IE 8]><!-->
+  <script type="text/javascript" src="https://cdn.ons.gov.uk/sixteens/1f354a7/js/main.js"></script>
+  <script type="text/javascript" src="https://beta.ons.gov.uk/js/app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+  <!--<![endif]-->
+</html>
